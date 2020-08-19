@@ -17,6 +17,8 @@ namespace My_Second_Csharp_Program
         {
             Person p1 = new Person();
             p1.SayHi();//the . operator that is used to access and call the method of the object
+            p1.age = 18;
+            p1.name = "Bobby";
         }//the new operator instantiates an object and returns a reference to its location
     }
 }
